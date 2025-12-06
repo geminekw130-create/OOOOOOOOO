@@ -1,0 +1,91 @@
+{
+  "project_info": {
+    "project_number": "491950036407",
+    "firebase_url": "https://to-chegando-motoboy-24b4a-default-rtdb.firebaseio.com",
+    "project_id": "to-chegando-motoboy-24b4a",
+    "storage_bucket": "to-chegando-motoboy-24b4a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:491950036407:android:0bc701760eaa2378034432",
+        "android_client_info": {
+          "package_name": "com.tochegando.cliente"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "491950036407-8ikk4hunk41d961q7ugp9hbha06ubdpm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tochegando.cliente",
+            "certificate_hash": "fd9cfec0a83f6ec377dc3996495bb2cc689dd4a7"
+          }
+        },
+        {
+          "client_id": "491950036407-lrdgateeks4qt05v5pco4prn21b5dd74.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVXTy3vBt1BD2DdZlSjGRq6RcsGJPwUFo"
+        },
+        {
+          "current_key": "AIzaSyDp58F_Sdf-CrcwUb8ZizIV7zCVEjIB1FI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "491950036407-lrdgateeks4qt05v5pco4prn21b5dd74.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:491950036407:android:1b5e5259756c7051034432",
+        "android_client_info": {
+          "package_name": "com.tochegando.motoboy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "491950036407-amje8tvfa6jkrovq4gd9bssfnvrla3i6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tochegando.motoboy",
+            "certificate_hash": "fd9cfec0a83f6ec377dc3996495bb2cc689dd4a7"
+          }
+        },
+        {
+          "client_id": "491950036407-lrdgateeks4qt05v5pco4prn21b5dd74.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVXTy3vBt1BD2DdZlSjGRq6RcsGJPwUFo"
+        },
+        {
+          "current_key": "AIzaSyDp58F_Sdf-CrcwUb8ZizIV7zCVEjIB1FI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "491950036407-lrdgateeks4qt05v5pco4prn21b5dd74.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

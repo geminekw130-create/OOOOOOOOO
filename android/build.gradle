@@ -1,23 +1,12 @@
-allprojects {
+buildscript {
+    ext.kotlin_version = '1.9.22'  // Kotlin 1.9.22 pra compatibilidade total
     repositories {
         google()
         mavenCentral()
     }
-}
 
-rootProject.buildDir = '../build'
-subprojects {
-    project.buildDir = "${rootProject.buildDir}/${project.name}"
-}
-subprojects {
-    project.evaluationDependsOn(':app')
-    configurations.configureEach {
-        resolutionStrategy {
-            force 'pl.droidsonroids.gif:android-gif-drawable:1.2.25'
-        }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:8.2.2'  // AGP 8.2.2
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
     }
-}
-
-tasks.register("clean", Delete) {
-    delete rootProject.buildDir
 }
